@@ -13,5 +13,6 @@ class RadarsController < ApplicationController
 
   def keed_data
     AttackMode.save_data(@petition['attack-mode'])
+    @radar = Radar.populate_radar(@petition['radar'])
   end
 end
