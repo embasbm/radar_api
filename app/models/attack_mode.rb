@@ -1,0 +1,2 @@
+class AttackMode < ApplicationRecord
+end
